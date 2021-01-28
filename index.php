@@ -1,7 +1,7 @@
 <?php
 
 // Premiere ligne
-$name = $_GET['fname'];
+$name = $_POST['fname'];
 
 echo "Bienvenue ".$name;
 
